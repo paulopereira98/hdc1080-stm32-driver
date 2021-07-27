@@ -16,7 +16,7 @@ Driver for the hdc1080 sensor for stm32.
 #define HDC1080_I2C_HANDLER	hi2c2
 ```
 
-##### Call the esp8266_init() function on startup
+##### Call the hdc1080_init() function on startup
 ```c
 /* main.c */
 int main(void)
