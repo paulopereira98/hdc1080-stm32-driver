@@ -1,0 +1,26 @@
+var hdc1080_8h =
+[
+    [ "BTST", "hdc1080_8h.html#ad7f3fed10e743c245ae16e7e13b7a154", null ],
+    [ "CONFIGURATION", "hdc1080_8h.html#a5fa120064b78d91b6a77f868bbda5a99", null ],
+    [ "DEVICE_ID", "hdc1080_8h.html#a0b85963cace75e76ae726bcffb04eb70", null ],
+    [ "HDC1080_I2C_ADDR", "hdc1080_8h.html#af0cf6b62cc46031dbcb698408b50aa26", null ],
+    [ "HDC1080_I2C_HANDLER", "hdc1080_8h.html#a11b91a748345c98ad810a2f35569bcf6", null ],
+    [ "HEAT", "hdc1080_8h.html#a6ca45e98f2f0393bd8b2376db22b8521", null ],
+    [ "HRES", "hdc1080_8h.html#a1ccf3010e6b3751cdfa1ad9a49a16671", null ],
+    [ "HRES_11BIT", "hdc1080_8h.html#a3d137f1c0d8399878dd0db19414e7113", null ],
+    [ "HRES_14BIT", "hdc1080_8h.html#aea8ec17abf0a471a563a58329c3d8952", null ],
+    [ "HRES_8BIT", "hdc1080_8h.html#a83adbf74106b435654a55e87175e5a8b", null ],
+    [ "HUMIDITY", "hdc1080_8h.html#affb23d51e57c543c4bac6b313c4f4c04", null ],
+    [ "MANUFACTURER_ID", "hdc1080_8h.html#ad6d06519161544439a58bb8f59fc3094", null ],
+    [ "MODE", "hdc1080_8h.html#ab8c52c1b4c021ed3e6b6b677bd2ac019", null ],
+    [ "RST", "hdc1080_8h.html#ac5d957e4fd3dc11cd97a54cf9ca057a4", null ],
+    [ "SERIAL_ID", "hdc1080_8h.html#a560196c1c34726e2a49ca2fa4e8836d5", null ],
+    [ "TEMPERATURE", "hdc1080_8h.html#af4e8dcb1c210baad2e179d49669eabff", null ],
+    [ "TRES", "hdc1080_8h.html#aaf3be78ef9e9ad1b88386c7bf000188d", null ],
+    [ "TRES_11BIT", "hdc1080_8h.html#ac7800d703644cf86b1c40b42ccfbc480", null ],
+    [ "TRES_14BIT", "hdc1080_8h.html#ae39236be404d1940d471926e70c8db7d", null ],
+    [ "hdc1080_init", "hdc1080_8h.html#ac20026d19b5d64a53d62240f78345e69", null ],
+    [ "hdc1080_measure_T_RH", "hdc1080_8h.html#ace776f3f7a71fd2d0cc663ef0227d9c5", null ],
+    [ "hdc1080_measureRH", "hdc1080_8h.html#a1a4a0c22828225b3027c0efca9cc2efc", null ],
+    [ "hdc1080_measureT", "hdc1080_8h.html#afc592478dda9282cf4edc8d925c78cfc", null ]
+];
