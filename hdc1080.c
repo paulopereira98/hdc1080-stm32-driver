@@ -13,7 +13,7 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 /**
- * @file hdc1080.h
+ * @file hdc1080.c
  * @brief Driver for the hdc1080 sensor for stm32.
  */
 
@@ -35,7 +35,7 @@ void hdc1080_init(void)
 	configuration = ( RST | MODE | TRES(TRES_14BIT) | HRES(HRES_14BIT) );
 	
 	config_arr[0] = (configuration & 0xFF00)>>8;	//configuration MSB
-	config_arr[1] = (configuration & 0x00FF);			//configuration LSB
+	config_arr[1] = (configuration & 0x00FF);	//configuration LSB
 	
 	HAL_I2C_Mem_Write(&HDC1080_I2C_HANDLER, HDC1080_I2C_ADDR<<1, CONFIGURATION, I2C_MEMADD_SIZE_8BIT, config_arr, 2, 100);
 }
@@ -98,8 +98,8 @@ float hdc1080_measureRH(void)
 
 /**
   * @brief  read sensor i2c temperature and humidity registers
-  * @param 	temperature	pointer to temperature variable
-  * @param 	humidity 		pointer to humidity variable
+  * @param  temperature		pointer to temperature variable
+  * @param  humidity 		pointer to humidity variable
   * @retval None
   */
 void hdc1080_measure_T_RH(float *temperature, float *humidity)
